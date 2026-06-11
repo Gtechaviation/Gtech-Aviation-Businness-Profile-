@@ -198,8 +198,11 @@ p { color: var(--muted); }
 /* Two-branch org (CEO -> GM & Operations -> teams) */
 .org-branches { display: grid; grid-template-columns: .85fr 1.15fr; gap: 18px; width: 100%;
   position: relative; align-items: start; }
-.org-branches.three-col { grid-template-columns: .92fr .52fr 1.95fr; gap: 14px; }
+.org-branches.three-col { grid-template-columns: 1fr .6fr 2.4fr; gap: 12px; padding-top: 22px; }
 .org-branches.three-col .branch-col:nth-child(2) { align-items: center; }
+/* Tree connectors: CEO -> horizontal distributor -> each branch head */
+.org-branches.three-col::before { content: ""; position: absolute; top: 0; left: 12.5%; right: 30%; height: 3px; background: var(--line); border-radius: 2px; }
+.org-branches.three-col > .branch-col::before { content: ""; position: absolute; top: -22px; left: 50%; transform: translateX(-50%); width: 3px; height: 22px; background: var(--line); border-radius: 2px; }
 .op-groups.tri::before { left: 16.6%; right: 16.6%; }
 .op-groups.tri .op-people { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .org-branches .branch-col:first-child .op-people { grid-template-columns: repeat(3, minmax(0, 98px)); justify-content: center; }
