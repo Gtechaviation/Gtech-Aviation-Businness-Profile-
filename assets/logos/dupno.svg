@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" role="img" aria-label="Dupno">
+  <path d="M14 24 q22 0 22 12 q0 12 -22 12 h-2 v-9 h2 q10 0 10 -3 q0 -3 -10 -3 h-2 v-9 z" fill="#1f6fd6"/>
+  <path d="M10 30 l16 6 l-16 6 z" fill="#f26522"/>
+  <text x="44" y="48" font-family="Segoe UI, Arial, sans-serif" font-weight="800" font-size="30" fill="#1f6fd6" letter-spacing="1">DUPNO</text>
+</svg>

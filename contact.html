@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Gtech Group</title>
+  <meta name="description" content="Connect with Gtech Group — Navana Tower, Gulshan 1, Dhaka. Phone, email, and inquiry form." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="brand"><img src="assets/logos/gtech-aviation.png" alt="Gtech Aviation Ltd" class="brand-logo" /></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="companies.html">Our Concerns</a></li>
+        <li><a href="index.html#partners">Partners</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-primary">Connect With Us</a>
+        <button class="menu-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Connect With Us</h1>
+      <p>Have a question, partnership idea, or project in mind? The Gtech Group team would love to hear from you.</p>
+      <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container contact-grid">
+      <div class="contact-info reveal">
+        <h2 style="margin-bottom:24px;">Contact Information</h2>
+        <div class="info-item">
+          <div class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div><h4>Head Office</h4><p>Suite 21/B, 45 Navana Tower,<br />Gulshan 1 Avenue, Dhaka-1212, Bangladesh</p></div>
+        </div>
+        <div class="info-item">
+          <div class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3-8.6A2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 1.9.7 2.8a2 2 0 01-.5 2.1L8.1 9.9a16 16 0 006 6l1.3-1.2a2 2 0 012.1-.5c.9.3 1.8.6 2.8.7a2 2 0 011.8 2z"/></svg></div>
+          <div><h4>Phone</h4><p><a href="tel:+8801835680712">+880 1835-680712</a><br /><a href="tel:+8801750110337">+880 1750-110337</a><br /><a href="tel:+88028837724">+88 02 8837724</a></p></div>
+        </div>
+        <div class="info-item">
+          <div class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 6L2 7"/></svg></div>
+          <div><h4>Email &amp; Web</h4><p><a href="mailto:sales@gtechaviation.com">sales@gtechaviation.com</a><br /><a href="https://gtechgroupbd.com/" target="_blank" rel="noopener">gtechgroupbd.com</a></p></div>
+        </div>
+        <div class="info-item">
+          <div class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+          <div><h4>Working Hours</h4><p>Sun – Thu: 9:00 AM – 6:00 PM</p></div>
+        </div>
+      </div>
+
+      <div class="form-card reveal">
+        <h2 style="margin-bottom:8px;">Send Us a Message</h2>
+        <p style="margin-bottom:24px;">Fill out the form and our team will respond as soon as possible.</p>
+        <div id="formMsg" class="form-msg"></div>
+        <form id="contactForm">
+          <div class="grid-2" style="gap:18px;">
+            <div class="form-group"><label for="name">Full Name</label><input type="text" id="name" name="name" placeholder="Your name" required /></div>
+            <div class="form-group"><label for="email">Email</label><input type="email" id="email" name="email" placeholder="you@example.com" required /></div>
+          </div>
+          <div class="grid-2" style="gap:18px;">
+            <div class="form-group"><label for="phone">Phone</label><input type="tel" id="phone" name="phone" placeholder="Optional" /></div>
+            <div class="form-group">
+              <label for="subject">Inquiry For</label>
+              <select id="subject" name="subject">
+                <option>General Inquiry</option>
+                <option>G-Tech Solution (Solar / Construction)</option>
+                <option>Gtech Infrastructure</option>
+                <option>Gtech Solar</option>
+                <option>Dupno (GPS Tracking)</option>
+                <option>Gtech Aviation (Travel / Medical Tourism)</option>
+                <option>Partnership</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group"><label for="message">Message</label><textarea id="message" name="message" placeholder="How can we help you?" required></textarea></div>
+          <button type="submit" class="btn btn-primary" style="width:100%;">Send Message</button>
+          <p class="form-note">This is a demo form. To make it live, connect it to a backend or a service like Formspree.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>

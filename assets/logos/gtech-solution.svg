@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" role="img" aria-label="G-Tech Solution Ltd">
+  <defs><clipPath id="rs"><rect x="6" y="8" width="56" height="56" rx="13"/></clipPath></defs>
+  <g clip-path="url(#rs)">
+    <rect x="6" y="8" width="56" height="56" fill="#00963a"/>
+    <path d="M6 8 H62 V40 Z" fill="#e3000f"/>
+  </g>
+  <text x="34" y="46" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-weight="700" font-size="26" fill="#fff">GT</text>
+  <text x="74" y="36" font-family="Segoe UI, Arial, sans-serif" font-weight="800" font-size="20" fill="#00963a">G-Tech</text>
+  <text x="74" y="58" font-family="Segoe UI, Arial, sans-serif" font-weight="800" font-size="20" fill="#0a2c5c">Solution Ltd.</text>
+</svg>

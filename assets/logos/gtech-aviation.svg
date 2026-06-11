@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" role="img" aria-label="Gtech Aviation Ltd">
+  <path d="M6 50 q26 8 52 -2 q-4 8 -14 11 q-20 5 -38 -9 z" fill="#1f6fd6"/>
+  <path d="M44 14 l8 0 l-10 30 l-8 0 z" fill="#e3000f"/>
+  <path d="M30 30 l24 -2 l-20 12 l-3 8 l-3 -8 l-10 -3 z" fill="#1f6fd6"/>
+  <text x="74" y="36" font-family="Segoe UI, Arial, sans-serif" font-weight="800" font-size="22" fill="#e3000f">GTECH</text>
+  <text x="74" y="58" font-family="Segoe UI, Arial, sans-serif" font-weight="800" font-size="18" fill="#0a2c5c">AVIATION LTD.</text>
+</svg>
