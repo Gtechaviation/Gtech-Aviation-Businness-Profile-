@@ -764,4 +764,12 @@ p { color: var(--muted); }
   .reveal { opacity: 1 !important; transform: none !important; }
   .pdf-download { display: none !important; }
   body { background: #fff !important; }
+  /* Keep each section and every card whole — never split across pages */
+  section { break-inside: avoid; page-break-inside: avoid; }
+  .section-head { break-after: avoid; page-break-after: avoid; }
+  .gtree, .lead-chart, .org-branches, .pillar, .leaf, .branch-col,
+  .card, .company-card, .av-card, .mvg-card, .op-group, .op-person,
+  .lc-card, .org-node, .interest, .feature-tile, .ptree-card {
+    break-inside: avoid; page-break-inside: avoid;
+  }
 }
