@@ -149,10 +149,10 @@ p { color: var(--muted); }
 
 /* ---------- Mission / Vision / Goal (navy boxes) ---------- */
 .mvg { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; }
-.mvg-card { background: rgba(10,44,92,.92); color: #fff; border-radius: var(--radius); padding: 24px 22px; }
-.mvg-card h3 { color: #fff; }
+.mvg-card { background: #fff; color: var(--ink); border: 1px solid #d7e2f2; border-top: 4px solid var(--red); box-shadow: 0 4px 14px rgba(10,44,92,.10); border-radius: var(--radius); padding: 24px 22px; }
+.mvg-card h3 { color: var(--navy); }
 .mvg-card .label { color: var(--red); font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; font-size: .85rem; margin-bottom: 10px; }
-.mvg-card p { color: rgba(255,255,255,.82); font-size: 1.02rem; }
+.mvg-card p { color: var(--muted); font-size: 1.02rem; }
 
 /* ---------- Leadership cards ---------- */
 .leader-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-sm); }
@@ -266,8 +266,8 @@ p { color: var(--muted); }
 .av-kicker-icon { font-size: 1.4rem; }
 .av-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .av-grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
-.av-card { background: rgba(255,255,255,.8); backdrop-filter: blur(4px); border: 1px solid var(--line); border-radius: 16px; padding: 14px 12px;
-  box-shadow: var(--shadow-sm); transition: transform .2s ease, box-shadow .2s ease; }
+.av-card { background: #fff; border: 1px solid #d7e2f2; border-radius: 16px; padding: 14px 12px;
+  box-shadow: 0 4px 14px rgba(10,44,92,.10); transition: transform .2s ease, box-shadow .2s ease; }
 .av-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
 .av-card .av-emoji { font-size: 1.4rem; display: block; margin-bottom: 8px; }
 .av-card h3 { color: var(--navy); font-size: 1.02rem; margin-bottom: 5px; }
