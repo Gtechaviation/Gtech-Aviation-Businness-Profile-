@@ -34,7 +34,7 @@ a:hover { color: var(--red); }
 img { max-width: 100%; display: block; }
 
 .container { width: 100%; max-width: var(--maxw); margin: 0 auto; padding: 0 24px; }
-section { padding: 38px 0; }
+section { padding: 22px 0; }
 
 h1, h2, h3 { line-height: 1.2; color: var(--navy); font-weight: 800; }
 h1 { font-size: clamp(1.7rem, 3.6vw, 2.6rem); }
@@ -107,7 +107,7 @@ p { color: var(--muted); }
 }
 
 /* ---------- Section headings ---------- */
-.section-head { text-align: center; max-width: 700px; margin: 0 auto 54px; }
+.section-head { text-align: center; max-width: 700px; margin: 0 auto 28px; }
 .section-head .kicker { color: var(--red); font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; font-size: .8rem; display: block; margin-bottom: 12px; }
 .section-head p { font-size: 1.05rem; margin-top: 14px; }
 .kicker { color: var(--red); font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; font-size: .8rem; }
@@ -403,7 +403,7 @@ p { color: var(--muted); }
 .page-hero::after { content: ""; position: absolute; bottom: 0; right: 0; width: 220px; height: 60px; background: var(--red); clip-path: polygon(100% 0, 100% 100%, 0 100%); }
 .page-hero h1 { color: #fff; margin-bottom: 12px; }
 /* Narrow white cover hero (index) */
-.cover-hero { background: transparent; border-bottom: 1px solid var(--line); padding: 26px 0 22px; text-align: center; }
+.cover-hero { background: transparent; border-bottom: 1px solid var(--line); padding: 12px 0 14px; text-align: center; }
 .cover-hero .container { display: flex; flex-direction: column; align-items: center; gap: 8px; }
 .cover-hero .eyebrow { color: var(--red); font-weight: 800; letter-spacing: 1.6px; text-transform: uppercase; font-size: .78rem; }
 .cover-hero .cover-logo { max-height: 46px; max-width: 190px; object-fit: contain; }
